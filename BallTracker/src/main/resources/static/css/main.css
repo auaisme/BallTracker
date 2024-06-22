@@ -1,0 +1,19 @@
+/** {*/
+/* align-content: center;*/
+/* justify-content: center;*/
+/*}*/
+
+/*body {*/
+/* padding: 10%;*/
+/*}*/
+
+/*!*.login {*!*/
+/*!*    padding: 10%;*!*/
+/*!*    max-width: 50%;*!*/
+/*!*    background-color: grey;*!*/
+/*!*}*!*/
+
+.hidden {
+    display: none;
+    visibility: hidden;
+}

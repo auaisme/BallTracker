@@ -1,0 +1,38 @@
+DEVELOPED BY: Ali Usman
+
+-----------------------------------
+
+TECHNOLOGIES:
+	Backend: SpringBoot
+	Frontend: THREE.JS + Bootstrap + Fundamental JS and CSS
+	Websockets: Stomp over SockJS
+	Database: MySQL 8
+	IDE: IntelliJ IDEA
+
+-----------------------------------
+
+HOW TO RUN:
+	Set-up database: If you're using a dbms other than MySQL8, you need to update application.yaml and all other relevant code to reflect your database. If you're using a custom configuration of MySQL8, you also need to update application.yaml to reflect that.
+
+	Internet connection: Since many JS files are included on run-time, you need to ensure that you have a stable internet connection, or include said JS files into to the project manually.
+
+	Running and accessing: First start the system through IntelliJ IDEA then head on over to localhost:8080 to access the frontend.
+
+	Refer to video on how to use: https://www.loom.com/share/4e157c3690a54236bee5906dfd94d87e?sid=8a305ff5-f165-4ec1-86be-19281916e6d1
+
+-----------------------------------
+
+ADDITIONAL NOTES:
+	A password system can be implemented, however, as the project doesn't contain any sensitive data, there was no apparent need for it. Since there is only 1 role, Ball Monitor, there was no need to explicitly declare the role either. These can and will be changed in the future.
+
+-----------------------------------
+
+PLEASE KEEP IN MIND:
+	If you're making any changes to the system, you must ensure that it works properly. Please update the application.yaml and any and all comments when making changes.
+
+	MySQL Configuration:
+		Username: root
+		Password: admin
+		MySQL 8 was left on default configuration, however, please confirm that your configuration matches that of application.yaml
+
+-----------------------------------
